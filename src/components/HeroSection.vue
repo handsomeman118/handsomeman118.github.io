@@ -1,14 +1,15 @@
 <script setup>
 import avatar from '../assets/avatar.png'
-const name = '搞不明白AI的Pandas'
+const displayName = '搞不明白AI的Pandas'
 const username = 'handsomeman118'
 const tagline = '热爱技术，享受创造'
 </script>
 
 <template>
   <section class="hero">
-    <img class="hero-avatar" :src="avatar" alt="avatar" />
-    <h1 class="hero-name">{{ name }}</h1>
+    <img class="hero-avatar" :src="avatar" alt="avatar" draggable="false" @dragstart.prevent />
+    <h1 class="hero-name">{{ displayName }}</h1>
+    <p class="hero-username">@{{ username }}</p>
     <p class="hero-tagline">{{ tagline }}</p>
     <div class="hero-links">
       <a :href="`https://github.com/${username}`" target="_blank" rel="noopener">GitHub</a>
@@ -31,11 +32,19 @@ const tagline = '热爱技术，享受创造'
   object-fit: cover;
   margin-bottom: 1.5rem;
   border: 3px solid var(--color-border);
+  user-select: none;
+  -webkit-user-drag: none;
 }
 
 .hero-name {
   font-size: 2.5rem;
   font-weight: 700;
+  margin-bottom: 0.25rem;
+}
+
+.hero-username {
+  font-size: 1rem;
+  color: var(--color-text-secondary);
   margin-bottom: 0.5rem;
 }
 
