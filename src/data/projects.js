@@ -14,18 +14,4 @@ export const projects = [
     github: 'https://github.com/handsomeman118/handsomeman118.github.io',
     demo: null,
   },
-//   {
-//     name: 'cool-tool',
-//     description: '一个实用的开发工具，帮助提升日常开发效率。',
-//     tags: ['Node.js', 'CLI', 'Automation'],
-//     github: 'https://github.com/handsomeman118/cool-tool',
-//     demo: null,
-//   },
-//   {
-//     name: 'mini-app',
-//     description: '一个轻量级的小应用，解决某个具体场景的问题。',
-//     tags: ['React', 'Firebase', 'Tailwind'],
-//     github: 'https://github.com/handsomeman118/mini-app',
-//     demo: 'https://handsomeman118.github.io/mini-app',
-//   },
 ]

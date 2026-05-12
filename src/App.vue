@@ -1,17 +1,32 @@
 <script setup>
 import HeroSection from './components/HeroSection.vue'
 import ProjectGrid from './components/ProjectGrid.vue'
+import PullCord from './components/PullCord.vue'
+import ThemeToggle from './components/ThemeToggle.vue'
 </script>
 
 <template>
-  <HeroSection />
-  <ProjectGrid />
+  <header class="top-bar">
+    <ThemeToggle />
+  </header>
+  <main>
+    <HeroSection />
+    <ProjectGrid />
+  </main>
   <footer class="footer">
-    <p>&copy; 2026 handsomeman118</p>
+    <p>&copy; {{ new Date().getFullYear() }} handsomeman118</p>
   </footer>
+  <PullCord />
 </template>
 
 <style scoped>
+.top-bar {
+  position: fixed;
+  top: 1rem;
+  right: 1.5rem;
+  z-index: 100;
+}
+
 .footer {
   text-align: center;
   padding: 2rem 1rem;
@@ -21,4 +36,5 @@ import ProjectGrid from './components/ProjectGrid.vue'
   max-width: var(--max-width);
   margin: 0 auto;
 }
+
 </style>
