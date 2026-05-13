@@ -14,4 +14,11 @@ export const projects = [
     github: 'https://github.com/handsomeman118/handsomeman118.github.io',
     demo: null,
   },
+  {
+    name: 'acDL',
+    description: '个人深度学习研究实验工具包，将日常实验中重复使用的内容工程化封装，方便快速开展实验。',
+    tags: ['Python', 'PyTorch', 'sklearn'],
+    github: 'https://github.com/handsomeman118/acDL',
+    demo: null,
+  },
 ]
