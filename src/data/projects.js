@@ -11,7 +11,7 @@ export const projects = [
     "name": "memory-ex-skill",
     "description": "基于前任skill做的记忆优化，将聊天记录划分为不同的事件，从总结概括变为故事分析",
     "tags": ["LLM", "Prompt Engineering", "NLP"],
-    "github": "https://github.com/handsomeman118/ex-skill",
+    "github": "https://github.com/handsomeman118/memory-ex-skill",
     "demo": null
   },
   {
