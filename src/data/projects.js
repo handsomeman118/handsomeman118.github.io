@@ -22,10 +22,10 @@ export const projects = [
     demo: null,
   },
   {
-    name: 'handsomeman118-github-pages',
+    name: 'my-github-pages',
     description: '我的个人GitHub Pages，现代前端开发的实践。',
     tags: ['Vue 3', 'Vite', 'javascript', 'CSS'],
-    github: 'https://github.com/handsomeman118/handsomeman118-github-pages',
+    github: 'https://github.com/handsomeman118/handsomeman118.github.io',
     demo: null,
   },
 ]
